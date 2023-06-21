@@ -34,23 +34,12 @@ body{
 
 .navbar .container li{
     margin-left: 20px;
+    flex-shrink: 0;
 }
 
 .navbar .container a:hover{
     color: lightskyblue;
     transition: 0.2s;
-}
-
-
-.sign-up{
-    background-color: #fff;
-    padding: 12px;
-    border-radius: 24px;
-    flex-shrink: 0;
-}
-
-.sign-up a{
-    color: #181e28;
 }
 
 a{
@@ -107,6 +96,7 @@ button{
     background-color: #fff;
     border: 1px solid #fff;
     padding: 16px 20px;
+    margin: 16px 0;
     font-size: 16px;
     border-radius: 32px;
     font-family: ubuntu-bold;
@@ -199,5 +189,30 @@ button:hover{
 .footer .heading{
     font-size: 24px;
     font-family: ubuntu-bold;
+}
+
+@media(max-width:840px) {
+    .header .container{
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+    }
+    .header .container img{
+        max-width: 400px;
+    }
+
+    .footer .container{
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+    }
+    .footer .container div{
+        margin-right: 0px;
+    }
+
+    .footer .container p{
+        margin: 16px 0;
+    }
 }
 
