@@ -163,6 +163,7 @@ button:hover{
     text-align: center;
     margin-bottom: 8px;
     padding: 10px;
+    font-weight: 550;
     font-size: 18px;
     line-height: 1.4;
 }
@@ -217,13 +218,25 @@ button:hover{
         font-size: 26px;
     }
 
+    .navbar .container ul li a {
+        font-size: 16px;
+    }
+
+    .navbar .container li{
+        margin-left: 10px;
+    }
+
+    .navbar .container ul .signup{
+        margin-left: 20px;
+    }
+
     .header .container{
         flex-direction: column;
         text-align: center;
         align-items: center;
     }
     .header .container img{
-        max-width: 400px;
+        max-width: 350px;
     }
 
     .footer .container{
