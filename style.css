@@ -82,7 +82,8 @@ a{
 }
 
 .header .container img{
-    max-width: 500px;
+    max-width: 400px;
+    max-height: 300px;
     border-radius: 16px;
     box-shadow: 0 3px 5px rgba(0, 0, 0, 0.6);
 }
