@@ -1,11 +1,21 @@
 @font-face {
-    font-family: ubuntu-regular;
-    src: url(./fonts/Ubuntu-Regular.ttf);
+    font-family: poppins-regular;
+    src: url(./fonts/Poppins-Regular.ttf);
 }
 
 @font-face {
-    font-family: ubuntu-bold;
-    src: url(./fonts/Ubuntu-Bold.ttf);
+    font-family: poppins-bold;
+    src: url(./fonts/Poppins-ExtraBold.ttf);
+}
+
+@font-face {
+    font-family: poppins-italic;
+    src: url(./fonts/Poppins-Italic.ttf);
+}
+
+@font-face {
+    font-family: poppins-light;
+    src: url(./fonts/Poppins-Light.ttf);
 }
 
 *{
@@ -15,7 +25,7 @@
 }
 
 body{
-    font-family: ubuntu-regular, sans-serif;
+    font-family: poppins-regular, sans-serif;
     color: #181e28;
     background: #f6f6f6;
 }
@@ -62,7 +72,7 @@ a{
 .navbar .logo{
     font-size: 32px;
     flex-shrink: 0;
-    font-family: ubuntu-bold;
+    font-family: poppins-bold, sans-serif;
 }
 
 .header{
@@ -99,7 +109,7 @@ button{
     margin: 16px 0;
     font-size: 16px;
     border-radius: 32px;
-    font-family: ubuntu-bold;
+    font-family: poppins-bold, sans-serif;
     flex-shrink: 0;
 }
 
@@ -115,13 +125,18 @@ button:hover{
     text-align: center;
     margin:32px;
     font-size: 32px;
-    font-family: ubuntu-bold;
+    font-family: poppins-bold;
 }
 
 .cards .container{
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
+}
+
+.cards .container .diverse-land{
+    border-bottom: 2px solid #181e28;
+    padding-bottom: 8px;
 }
 
 .card{
@@ -141,7 +156,7 @@ button:hover{
 .card h2{
     margin: 8px 0 0 0;
     font-size: 20px;
-    font-family: ubuntu-bold;
+    font-family: poppins-bold;
 }
 
 .card p{
@@ -152,10 +167,15 @@ button:hover{
     line-height: 1.4;
 }
 
+
 .testimonial{
     background-color: #E5E7EB;
     padding: 72px;
     margin-top: 20px;
+}
+
+.testimonial .container div p{
+    font-family: poppins-italic;
 }
 
 .testimonial .container{
@@ -174,7 +194,7 @@ button:hover{
 .footer .container{
     display: flex;
     justify-content: center;
-    background-color: #3474e6;
+    background-color: #0151cc;
     color: #fff;
     margin-top: 16px;
     margin-bottom: 24px;
@@ -188,7 +208,7 @@ button:hover{
 
 .footer .heading{
     font-size: 24px;
-    font-family: ubuntu-bold;
+    font-family: poppins-bold;
 }
 
 @media(max-width:840px) {
