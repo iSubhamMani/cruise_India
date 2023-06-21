@@ -192,7 +192,7 @@ button:hover{
     font-size: 22px;
 }
 
-.footer .container{
+.sign-up-form .container{
     display: flex;
     justify-content: center;
     background-color: #0151cc;
@@ -202,14 +202,24 @@ button:hover{
     padding: 28px;
 }
 
-.footer .container div{
+.sign-up-form .container div{
     margin-right: 32px;
     line-height: 1.5;
 }
 
-.footer .heading{
+.sign-up-form .heading{
     font-size: 24px;
     font-family: poppins-bold;
+}
+
+.footer{
+    background-color:#181e28;
+    color: #fff;
+    padding: 16px 0;
+}
+
+.footer .container{
+    text-align: center;
 }
 
 @media(max-width:840px) {
@@ -239,17 +249,17 @@ button:hover{
         max-width: 350px;
     }
 
-    .footer .container{
+    .sign-up-form .container{
         flex-direction: column;
         justify-content: center;
         text-align: center;
         align-items: center;
     }
-    .footer .container div{
+    .sign-up-form .container div{
         margin-right: 0px;
     }
 
-    .footer .container p{
+    .sign-up-form .container p{
         margin: 16px 0;
     }
 }
