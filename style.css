@@ -213,6 +213,11 @@ button:hover{
 }
 
 @media(max-width:840px) {
+
+    .navbar .container .logo{
+        font-size: 26px;
+    }
+
     .header .container{
         flex-direction: column;
         text-align: center;
