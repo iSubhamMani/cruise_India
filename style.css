@@ -38,6 +38,7 @@ body{
 
 .navbar .container a:hover{
     color: lightskyblue;
+    transition: 0.2s;
 }
 
 
@@ -117,6 +118,7 @@ button:hover{
     border: 1px solid #3474e6;
     color: #fff;
     cursor: pointer;
+    transition: 0.2s;
 }
 
 .cards h2{
@@ -124,4 +126,57 @@ button:hover{
     margin:32px;
     font-size: 32px;
     font-family: ubuntu-bold;
+}
+
+.cards .container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.card{
+    width: 300px;
+    margin: 16px 16px;
+    background-color: #3474e6;
+    color: #fff;
+    border-radius: 16px;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.6);
+}
+
+.card img{
+    width: 100%;
+    border-radius: 15px 15px 0 0;
+}
+
+.card h2{
+    margin: 8px 0 0 0;
+    font-size: 20px;
+    font-family: ubuntu-bold;
+}
+
+.card p{
+    text-align: center;
+    margin-bottom: 8px;
+    padding: 10px;
+    font-size: 18px;
+    line-height: 1.4;
+}
+
+.testimonial{
+    background-color: #E5E7EB;
+    padding: 72px;
+    margin-top: 20px;
+}
+
+.testimonial .container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.testimonial .container div{
+    margin: 16px;
+    font-size: 22px;
 }
